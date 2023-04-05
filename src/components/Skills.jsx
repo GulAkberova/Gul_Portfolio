@@ -40,6 +40,7 @@ function Skills() {
               <button>Material UI</button>
               <button>Chakra</button>
               <button>GitHub</button>
+              <button>Figma</button>
             </div>
           </div>
           {/* <div className={skills.skills_sun_div}>
