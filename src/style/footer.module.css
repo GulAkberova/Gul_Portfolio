@@ -6,3 +6,8 @@
   font-family: "Quicksand";
   color: #a17941;
 }
+@media screen and (max-width: 600px) {
+  .footer_div {
+    font-size: 14px;
+  }
+}

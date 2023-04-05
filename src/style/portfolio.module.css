@@ -76,3 +76,20 @@
 .portfolio_div_card_btn button:hover {
   background-color: white;
 }
+
+@media screen and (max-width: 1200px) {
+  .portfolio_div_card {
+    width: 48%;
+  }
+  .portfolio_div {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .portfolio_div_card {
+    width: 100%;
+  }
+  .portfolio_div {
+    padding: 10px;
+  }
+}

@@ -14,6 +14,9 @@
   padding: 20px 0px;
 }
 .about_big_div {
+  width: 1100px;
+  max-width: 100%;
+  /* border: 1px solid black; */
   padding: 40px 80px;
   /* background-color: #fff7ed; */
   display: flex;
@@ -65,4 +68,13 @@
   /* border: 1px solid black; */
   transform: rotate(230deg);
   width: 17%;
+}
+@media screen and (max-width: 900px) {
+  .about_big_div {
+    flex-direction: column;
+    padding: 40px 30px;
+  }
+  .about_mini_div {
+    width: 100%;
+  }
 }

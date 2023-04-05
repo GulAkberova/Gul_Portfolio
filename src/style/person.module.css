@@ -21,7 +21,8 @@
   left: 0;
 } */
 .person_mini_div {
-  width: 40%;
+  width: 500px;
+  /* border: 1px solid black; */
   max-width: 100%;
   text-align: center;
   position: relative;
