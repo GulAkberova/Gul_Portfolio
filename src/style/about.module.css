@@ -1,0 +1,68 @@
+.about_div {
+  padding: 30px 0px;
+  /* background-color: #fff7ed; */
+  position: relative;
+  overflow: hidden;
+  border-bottom: 5px solid white;
+  height: calc(100vh - 180px);
+  color: #a17941;
+}
+
+.about_div h1 {
+  font-family: "Merienda One";
+  text-align: center;
+  padding: 20px 0px;
+}
+.about_big_div {
+  padding: 40px 80px;
+  /* background-color: #fff7ed; */
+  display: flex;
+  justify-content: space-between;
+  font-family: "Quicksand";
+}
+.about_mini_div {
+  width: 35%;
+}
+.about_mini_div img {
+  filter: invert(100%) sepia(100%) saturate(4000%) hue-rotate(30deg);
+}
+.about_mini_div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+}
+.about_mini_div ul::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  width: 2px;
+  height: 100%;
+  background-color: #cbb396;
+  z-index: -1;
+}
+.about_mini_div ul li {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.about_mini_div ul li h3 {
+  padding-top: 8px;
+  padding-left: 12px;
+}
+.psxdetail_infodiv_education_li {
+  padding: 30px 8px 15px 8px;
+}
+.psxdetail_infodiv_education_li div:nth-of-type(1) {
+  padding-left: 25px;
+}
+.about_sun_div {
+  position: absolute;
+  bottom: -20%;
+  right: 0;
+  /* border: 1px solid black; */
+  transform: rotate(230deg);
+  width: 17%;
+}

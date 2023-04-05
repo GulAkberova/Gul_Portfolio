@@ -1,0 +1,88 @@
+.quality_div {
+  padding: 10px 80px;
+  position: relative;
+  overflow: hidden;
+  height: calc(100vh - 170px);
+}
+
+.quality_div h1 {
+  font-family: "Merienda One";
+  text-align: center;
+  padding: 20px 0px;
+}
+.quality_mini_div {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.quality_mini_div img {
+  width: 30%;
+  border-radius: 10px;
+}
+.quality_mini_div_text {
+  width: 45%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 50px;
+  position: relative;
+  overflow: hidden;
+  font-family: "Quicksand";
+  z-index: 1;
+  color: #a17941;
+}
+.quality_mini_div_text a {
+  color: #a17941;
+}
+.quality_mini_div_text_sun {
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  transform: rotate(-20deg);
+  z-index: -1;
+}
+.quality_mini_div_sun {
+  position: absolute;
+  left: 5%;
+  bottom: -5%;
+  width: 20%;
+}
+.quality_mini_div_sun img {
+  width: 100%;
+}
+.quality_mini_div_text ul {
+  margin-top: 20px;
+}
+.quality_mini_div_text ul li {
+  margin: 10px 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.quality_mini_div_text p {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+.quality_mini_div_text button {
+  padding: 10px 30px;
+  border: none;
+  background-color: white;
+  border: 2px solid rgb(224, 179, 94);
+  margin-top: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: rgb(224, 179, 94);
+  color: white;
+  /* color: #a17941; */
+}
+
+.quality_mini_div_text button:hover {
+  background-color: white;
+  color: #a17941;
+}
+.quality_mini_div_sun2 {
+  position: absolute;
+  bottom: -10%;
+  left: -10%;
+  z-index: -1;
+}

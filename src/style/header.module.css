@@ -1,0 +1,46 @@
+.navbarDiv {
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #fff7ed; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(196, 193, 193, 0.342);
+  border-bottom: 2px solid #e1d2bf;
+  position: relative;
+  overflow: hidden;
+}
+.header_sun_div {
+  position: absolute;
+  left: -5%;
+  top: 0;
+  transform: rotate(90deg);
+  width: 220px;
+  height: 220px;
+  z-index: -1;
+}
+.navbarDiv h1 a {
+  font-family: "Merienda One";
+  z-index: 1;
+  color: #a17941;
+}
+.navbarDiv ul {
+  display: flex;
+  font-family: "Quicksand";
+}
+.navbarDiv ul li {
+  margin: 0px 10px;
+}
+.navbarDiv ul li a {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  color: #a17941;
+}
+.navbarDiv ul li a.active {
+  color: #c7a170;
+}
+/* $anafont:'Quicksand', sans-serif;
+$elavefont:'Merienda One', cursive; */

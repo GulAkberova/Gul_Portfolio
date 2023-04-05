@@ -1,0 +1,8 @@
+.footer_div {
+  padding: 20px 80px;
+  border-top: 2px solid #e1d2bf;
+  display: flex;
+  justify-content: center;
+  font-family: "Quicksand";
+  color: #a17941;
+}

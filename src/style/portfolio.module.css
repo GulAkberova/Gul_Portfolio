@@ -1,0 +1,75 @@
+.portfolio_div {
+  padding: 20px 80px;
+  color: #a17941;
+}
+.portfolio_div h1 {
+  font-family: "Merienda One";
+  text-align: center;
+  padding: 50px 0px;
+  color: #a17941;
+}
+.portfolio_div_cards {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.portfolio_div_card {
+  width: 30%;
+  /* border: 1px solid #e0d2bf; */
+  border-top-right-radius: 30px;
+
+  font-family: "Quicksand";
+  box-shadow: -2px 5px 10px -1px rgba(161, 121, 65, 0.75);
+  -webkit-box-shadow: -2px 5px 10px -1px rgba(161, 121, 65, 0.75);
+  -moz-box-shadow: -2px 5px 10px -1px rgba(161, 121, 65, 0.75);
+}
+.portfolio_div_card_img {
+  width: 100%;
+  height: 280px;
+  border-bottom-left-radius: 180px;
+  border-bottom: 8px solid #a17941;
+  border-top-right-radius: 30px;
+}
+.portfolio_div_card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 180px;
+  border-top-right-radius: 20px;
+}
+.portfolio_div_card_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  /* color: #daba8d; */
+}
+.portfolio_div_card_text p {
+  padding: 7px 0px;
+}
+.portfolio_div_card_btn {
+  padding: 20px 10px;
+}
+.portfolio_div_card_btn button {
+  width: 47%;
+  padding: 17px 0px;
+  border: #e0d2bf;
+  margin-right: 10px;
+  border-radius: 3px;
+  background-color: #daba8d;
+  border: 1px solid #daba8d;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+.portfolio_div_card_btn button a {
+  color: white;
+}
+.portfolio_div_card_btn button:hover a {
+  color: #daba8d;
+}
+.portfolio_div_card_btn button:hover {
+  background-color: white;
+}
