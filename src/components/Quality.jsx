@@ -28,7 +28,9 @@ function Quality() {
       <section className={qua.quality_div}>
         {/* <h1>Haqqımda</h1> */}
         <div className={qua.quality_mini_div}>
-          <img src={Gul} />
+          <div className={qua.quality_mini_div_gul}>
+            <img src={Gul} />
+          </div>
           <div className={qua.quality_mini_div_text}>
             <img src={sun3} className={qua.quality_mini_div_text_sun} />
             <h2>Gülxanım Əkbərova</h2>

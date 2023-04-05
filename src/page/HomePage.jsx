@@ -14,7 +14,7 @@ function HomePage() {
       <Header />
       <Routes>
         <Route path="/quality" element={<About />} />
-        <Route path="/person" element={<Person />} />
+        <Route path="/" element={<Person />} />
         <Route path="/about" element={<Quality />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/portfolio" element={<PortfolioCard />} />

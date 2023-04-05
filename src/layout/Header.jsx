@@ -11,7 +11,7 @@ function Header() {
         <img src={sun} className={header.header_sun_div} />
         {/* </div> */}
         <h1>
-          <Link to="/person">Gülxanım Ekberova</Link>
+          <Link to="/">Gülxanım Ekberova</Link>
         </h1>
         <ul>
           <li>

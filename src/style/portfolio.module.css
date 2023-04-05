@@ -10,13 +10,16 @@
 }
 .portfolio_div_cards {
   /* border: 2px solid black; */
+  width: 1180px;
+  max-width: 100%;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
 .portfolio_div_card {
-  width: 30%;
+  width: 32%;
   /* border: 1px solid #e0d2bf; */
   border-top-right-radius: 30px;
 
@@ -53,8 +56,8 @@
   padding: 20px 10px;
 }
 .portfolio_div_card_btn button {
-  width: 47%;
-  padding: 17px 0px;
+  /* width: 47%; */
+  padding: 14px 50px;
   border: #e0d2bf;
   margin-right: 10px;
   border-radius: 3px;

@@ -22,6 +22,7 @@
 } */
 .person_mini_div {
   width: 40%;
+  max-width: 100%;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -36,6 +37,10 @@
 }
 .person_mini_div h1 {
   padding: 10px 0px;
+  font-size: 20px;
+}
+.person_mini_div p {
+  font-size: 14px;
 }
 .person_mini_div img {
   width: 140px;

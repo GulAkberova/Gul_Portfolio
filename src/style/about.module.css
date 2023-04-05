@@ -4,7 +4,7 @@
   position: relative;
   overflow: hidden;
   border-bottom: 5px solid white;
-  height: calc(100vh - 180px);
+  /* height: calc(100vh - 180px); */
   color: #a17941;
 }
 

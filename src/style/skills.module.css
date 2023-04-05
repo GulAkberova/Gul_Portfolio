@@ -1,5 +1,5 @@
 .skills_div {
-  padding: 20px 80px;
+  padding: 10px 80px;
   /* background-color: #fff7ed; */
   position: relative;
   color: #a17941;
@@ -10,10 +10,12 @@
 .skills_div h1 {
   font-family: "Merienda One";
   text-align: center;
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 .skills_mini_divs {
-  width: 60%;
+  width: 700px;
+  max-width: 100%;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: flex-end;
   /* justify-content: space-between; */
@@ -23,8 +25,10 @@
   /* border: 1px solid orange; */
 }
 .skills_mini_divs1 {
-  width: 90%;
+  width: 800px;
+  max-width: 100%;
   display: flex;
+  /* border: 1px solid red; */
   justify-content: flex-start;
   /* justify-content: space-between; */
   /* border: 1px solid black; */
@@ -32,7 +36,7 @@
   padding: 50px 0px;
 }
 .skills_contact_div {
-  width: 30%;
+  width: 100%;
   border: 10px solid white;
   border: 5px solid #547d69;
   position: relative;
@@ -49,7 +53,7 @@
   object-fit: cover;
 }
 .skills_mini_div {
-  width: 78%;
+  width: 100%;
   padding: 40px 20px;
   /* background-color: #547d69; */
   /* border: 1px solid #547d69; */
@@ -70,7 +74,7 @@
   border: none;
   background-color: transparent;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 15px;
   margin-right: 10px;
   margin-bottom: 15px;
   border-radius: 3px;
@@ -108,9 +112,9 @@
   z-index: -1;
 }
 .skills_mini_div1 {
-  width: 58%;
+  width: 100%;
   padding: 40px 20px;
-  background-color: white;
+  background-color: transparent;
   border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
