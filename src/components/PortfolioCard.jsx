@@ -25,6 +25,7 @@ import number from "../assets/image/portfolio/number.png";
 import login from "../assets/image/portfolio/login.png";
 import todo from "../assets/image/portfolio/todo.png";
 import xo from "../assets/image/portfolio/xo.png";
+import reactweather from "../assets/image/portfolio/weatherr.png";
 
 function PortfolioCard() {
   return (
@@ -269,7 +270,13 @@ function PortfolioCard() {
           </div>
           <div className={port.portfolio_div_card}>
             <div className={port.portfolio_div_card_img}>
-              <img src={blog} />
+              <img src={reactweather} />
+            </div>
+            <div className={port.portfolio_div_card_text}>
+              <h2>Weather React</h2>
+              <p>
+                <b>Istifadə olunan texnologiyalar:</b>React, Fetch, Props
+              </p>
             </div>
             <div className={port.portfolio_div_card_text}>
               <h2>Blog Responsive</h2>
@@ -280,7 +287,7 @@ function PortfolioCard() {
             <div className={port.portfolio_div_card_btn}>
               <button>
                 <a
-                  href="https://github.com/GulAkberova/Blog_Project"
+                  href="https://github.com/GulAkberova/Weather_React"
                   target="_blank"
                 >
                   GitHub
@@ -288,7 +295,7 @@ function PortfolioCard() {
               </button>
               <button>
                 <a
-                  href="https://blog-project-6c87da.netlify.app/"
+                  href="https://weather-app-react-2577e4.netlify.app/"
                   target="_blank"
                 >
                   Live Demo
