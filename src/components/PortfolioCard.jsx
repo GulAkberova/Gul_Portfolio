@@ -25,6 +25,7 @@ import number from "../assets/image/portfolio/number.png";
 import login from "../assets/image/portfolio/login.png";
 import todo from "../assets/image/portfolio/todo.png";
 import xo from "../assets/image/portfolio/xo.png";
+import number from "../assets/image/portfolio/number.png";
 import reactweather from "../assets/image/portfolio/weatherr.png";
 
 function PortfolioCard() {
@@ -278,12 +279,12 @@ function PortfolioCard() {
                 <b>Istifadə olunan texnologiyalar:</b>React, Fetch, Props
               </p>
             </div>
-            <div className={port.portfolio_div_card_text}>
+            {/* <div className={port.portfolio_div_card_text}>
               <h2>Blog Responsive</h2>
               <p>
                 <b>Istifadə olunan texnologiyalar:</b>Html, Css
               </p>
-            </div>
+            </div> */}
             <div className={port.portfolio_div_card_btn}>
               <button>
                 <a
@@ -386,6 +387,35 @@ function PortfolioCard() {
               <button>
                 <a
                   href="https://movie-app-react-12412f.netlify.app/"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className={port.portfolio_div_card}>
+            <div className={port.portfolio_div_card_img}>
+              <img src={number} />
+            </div>
+            <div className={port.portfolio_div_card_text}>
+              <h2>Phone Number Formatting</h2>
+              <p>
+                <b>Istifadə olunan texnologiyalar:</b>React{" "}
+              </p>
+            </div>
+            <div className={port.portfolio_div_card_btn}>
+              <button>
+                <a
+                  href="https://github.com/GulAkberova/Phone_Number_Format"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://sparkly-axolotl-da9d63.netlify.app/"
                   target="_blank"
                 >
                   Live Demo
@@ -763,6 +793,35 @@ function PortfolioCard() {
               <button>
                 <a
                   href="https://gulakberova.github.io/Game-X-O/"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className={port.portfolio_div_card}>
+            <div className={port.portfolio_div_card_img}>
+              <img src={blog} />
+            </div>
+            <div className={port.portfolio_div_card_text}>
+              <h2>Blog</h2>
+              <p>
+                <b>Istifadə olunan texnologiyalar:</b>Html, Css
+              </p>
+            </div>
+            <div className={port.portfolio_div_card_btn}>
+              <button>
+                <a
+                  href="https://github.com/GulAkberova/Blog_Project"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://blog-project-6c87da.netlify.app/"
                   target="_blank"
                 >
                   Live Demo
