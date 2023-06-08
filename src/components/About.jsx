@@ -77,9 +77,9 @@ function About() {
           </div>
           <div className={about.about_mini_div}></div>
         </div>
-        <div className={about.about_sun_div}>
+        {/* <div className={about.about_sun_div}>
           <img src={sun1} />
-        </div>
+        </div> */}
       </section>
     </>
   );

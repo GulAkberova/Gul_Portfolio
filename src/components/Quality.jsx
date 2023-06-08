@@ -88,7 +88,7 @@ function Quality() {
             >
               CV yüklə
             </button>
-            <img src={sun2} className={qua.quality_mini_div_sun2} />
+            {/* <img src={sun2} className={qua.quality_mini_div_sun2} /> */}
           </div>
         </div>
         <div className={qua.quality_mini_div_sun}>

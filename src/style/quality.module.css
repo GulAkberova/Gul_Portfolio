@@ -1,8 +1,8 @@
 .quality_div {
   padding: 10px 80px;
   position: relative;
-  overflow: hidden;
-  height: calc(100vh - 130px);
+  /* overflow: hidden; */
+  height: calc(100vh - 30px);
 }
 
 .quality_div h1 {

@@ -1,4 +1,6 @@
 .portfolio_div {
+  max-width: 1250px;
+  margin: auto;
   padding: 20px 80px;
   color: #a17941;
 }
@@ -57,7 +59,7 @@
 }
 .portfolio_div_card_btn button {
   /* width: 47%; */
-  padding: 14px 50px;
+  padding: 12px 45px;
   border: #e0d2bf;
   margin-right: 10px;
   border-radius: 3px;

@@ -25,7 +25,7 @@ import number from "../assets/image/portfolio/number.png";
 import login from "../assets/image/portfolio/login.png";
 import todo from "../assets/image/portfolio/todo.png";
 import xo from "../assets/image/portfolio/xo.png";
-import number from "../assets/image/portfolio/number.png";
+// import number from "../assets/image/portfolio/number.png";
 import reactweather from "../assets/image/portfolio/weatherr.png";
 
 function PortfolioCard() {
